@@ -1,0 +1,24 @@
+{
+  "name": "learnflow-final-project",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Responsive React online courses final project with API models and persistent learning progress",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --host 0.0.0.0",
+    "api": "node mock-api/server.js",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run test && npm run build"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "json-server": "0.17.4"
+  },
+  "devDependencies": {
+    "vite": "6.1.0"
+  }
+}
